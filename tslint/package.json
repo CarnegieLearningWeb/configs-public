@@ -1,0 +1,11 @@
+{
+  "name": "cli-shared-tslint-rules",
+  "version": "1.0.0",
+  "description": "CLI shared tslint rules",
+  "main": "tslint-base.json",
+  "scripts": {
+    "build": "npm version patch && npm pack"
+  },
+  "author": "mhasko",
+  "license": "MIT"
+}
