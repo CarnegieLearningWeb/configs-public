@@ -1,6 +1,6 @@
 {
   "name": "cli-shared-tslint-rules",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI shared tslint rules",
   "main": "tslint-base.json",
   "scripts": {
