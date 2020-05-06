@@ -1,16 +1,15 @@
 {
   "name": "cli-shared-tslint-rules",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "CLI shared tslint rules",
   "main": "tslint-base.json",
   "scripts": {
     "build": "node copy-json.js",
-    "incrementVersion": "npm version patch",
+    "incrementVersion": "npm version minor",
     "pack": "npm pack",
     "publish": "npm publish --registry http://nexus3.qa.carnegielearning.com:8081/repository/npm-carnegielearning-hosted/"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "author": "mhasko",
   "license": "MIT"
 }
