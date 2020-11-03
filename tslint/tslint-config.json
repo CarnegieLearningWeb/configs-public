@@ -13,7 +13,8 @@
     "forin": true,
     "import-blacklist": [
       true,
-      "rxjs/Rx"
+      "rxjs/Rx",
+      ".*/public_api"
     ],
     "import-spacing": true,
     "indent": {
@@ -149,13 +150,13 @@
     "directive-selector": [
       true,
       "attribute",
-      "app",
+      ["app", "cli"],
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "app",
+      ["app", "cli"],
       "kebab-case"
     ],
     "no-output-on-prefix": true,
