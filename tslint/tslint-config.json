@@ -150,13 +150,13 @@
     "directive-selector": [
       true,
       "attribute",
-      ["app", "cli"]
+      ["app", "cli"],
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      ["app", "cli"]
+      ["app", "cli"],
       "kebab-case"
     ],
     "no-output-on-prefix": true,
